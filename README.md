@@ -23,23 +23,6 @@ Bill-Splitter is a simple Python script to split bills among friends or particip
 3. Follow the prompts to enter individual names and their respective paid amounts.
 4. The script will calculate and display how much each participant owes or is owed.
 
-## Example
-
-Suppose you have a bill of $100 and there are 3 participants:
-- Participant A paid $40
-- Participant B paid $30
-- Participant C paid $30
-
-Running the script with these inputs would output:
-```
-Total bill amount: $100
-Number of participants: 3
-
-Participant A owes $10.00
-Participant B is settled (owes $0.00)
-Participant C is settled (owes $0.00)
-```
-
 ## Contributing
 
 Contributions are welcome! Please feel free to fork the repository and submit pull requests.
