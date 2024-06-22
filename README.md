@@ -1,11 +1,5 @@
 # Bill-Splitter
 
-Certainly! Below is a template for a README.md file for the Bill-Splitter project hosted on GitHub:
-
----
-
-# Bill-Splitter
-
 Bill-Splitter is a simple Python script to split bills among friends or participants equally. It calculates the amount each person needs to pay or receive to settle the bills.
 
 ## Features
