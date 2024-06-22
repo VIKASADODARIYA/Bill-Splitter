@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Splitter</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="child-container container">
+            <p id="image">Manage the expense more effectively with SplitApp!</p>
+            <img src="images\image.png" alt="image1">
+        </div>
+        <div class="child-container">
+            <div class="start-section">
+                <div id="intro">
+                    <h1>Get Started</h1>
+                    <p>Group expense splitting!</p>
+                </div>
+                <form id="registrationForm" action="register.php" method="post" onsubmit="return checkEmail()">
+                    <div id="input">
+                        <input type="text" id="fname" name="fname" placeholder="First Name" required>
+                        <!-- <label for="fname">First Name</label> -->
+                        <input type="text" id="lname" name="lname" placeholder="Last Name" required>
+                        <!-- <label for="lname">Last Name</label> -->
+                    </div>
+                    <div id="authentication">
+                        <input type="email" id="email" name="email" placeholder="Email Address" required>
+                        <!-- <label for="email">Email-Id</label> -->
+                        <div class="password-container">
+                            <input type="password" id="password" name="password" placeholder="Password" required>
+                            <!-- <label for="password">Password</label> -->
+                            <span id="password-toggle" onclick="togglePasswordVisibility()"><img src="https://cdn-icons-png.flaticon.com/128/3495/3495850.png" alt="Show Password"></span>
+                        </div>
+                        <br>
+                        <div id="email-error" class="status"></div>
+                        <h4>Already have an account? <a href="login.html">Login</a></h4>
+                        <button type="submit">Register</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

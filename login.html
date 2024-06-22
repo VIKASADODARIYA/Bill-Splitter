@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Splitter</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="child-container container">
+            <p id="image">Hey, Welcome Back!</p>
+            <img src="images/image_1.png" alt="image1">
+        </div>
+        <div class="child-container">
+            <div class="start-section">
+                <div id="intro">
+                    <h1>Sign in to SplitApp!</h1>
+                    <p>Enter your details below...</p>
+                </div>
+                <div id="successMessage"></div>
+                <form id="loginForm" action="login.php" method="post" onsubmit="return validateForm()">
+                    <div id="authentication">
+                        <input type="email" name="email" id="email" placeholder="Email Address" required>
+                        <div class="password-container">
+                            <input type="password" id="password" name="password" placeholder="Password" required>
+                            <span id="password-toggle" onclick="togglePasswordVisibility()"><img
+                                    src="https://cdn-icons-png.flaticon.com/128/3495/3495850.png"
+                                    alt="Show Password"></span>
+                        </div>
+                        <div id="loginError" class="status"></div>
+                        <br>
+                        <h4>Don't have an account? <a href="register.html">Register</a></h4>
+                        <button type="submit">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
