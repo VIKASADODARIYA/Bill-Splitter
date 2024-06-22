@@ -16,18 +16,6 @@ Bill-Splitter is a simple Python script to split bills among friends or particip
    git clone https://github.com/VIKASADODARIYA/Bill-Splitter.git
    ```
 
-2. Navigate to the project directory:
-
-   ```bash
-   cd Bill-Splitter
-   ```
-
-3. Run the script:
-
-   ```bash
-   python bill_splitter.py
-   ```
-
 ## Usage
 
 1. Enter the total bill amount.
